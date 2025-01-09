@@ -1,6 +1,6 @@
 # Itamar Zukerman
 Welcome to my Protfolio page
-##About Me
+#About Me
 I love to Whtch Thing of TV...
-##Skils
+#Skils
 -HTM/CSS
