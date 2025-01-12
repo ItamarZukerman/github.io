@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        label {
+            display: block;
+            font-size: 1.2rem;
+            color: #639;
+            margin-top: 10px;
+        }
+
+        ::placeholder {
+            font-family: "arial";
+            font-style: italic;
+            color: magenta;
+        }
+
+        textarea {
+            resize: none;
+            width: 200px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- form>(label+input+br)*2 -->
+    <form action="">
+        <label for="first_name">Name:</label>
+        <input type="text" id="first_name" placeholder="first_name">
+        <br>
+        <label for="">Last Name:</label>
+        <input type="text">
+        <br>
+        <label for="">Hobbies:</label>
+        <!-- input:checkbox*4 -->
+        <input type="checkbox" name="" id="">Music
+        <input type="checkbox" name="" id="">Books
+        <input type="checkbox" name="" id="">Cars
+        <input type="checkbox" name="" id="">Sport
+        <br>
+        <label for="">Gender:</label>
+        <!-- input:radio*3 -->
+        <input type="radio" name="gender" id="">Male
+        <input type="radio" name="gender" id="">Female
+        <input type="radio" name="gender" id="">Undefiend
+        <br>
+        <label for="">Write Somthing:</label>
+        <textarea name="" id="" maxlength="10"></textarea>
+        <br>
+        <label for="">What Did I Do?</label>
+        <!-- select>option*5 -->
+        <select name="" id="">
+            <option value="">Tel Aviv</option>
+            <option value="">Bat Yam</option>
+            <option value="">Ashdod</option>
+            <option value="">Haifa</option>
+            <option value="">Jerusalem</option>
+        </select>
+        <br><br>
+        <input type="button" value="Click">
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

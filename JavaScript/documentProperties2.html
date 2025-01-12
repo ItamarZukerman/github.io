@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Properties 2</title>
+</head>
+
+<body>
+    <!-- הוסף לדף שני כפתורים לצבעים ירוק וכחול. הוסף פונקציות בהתאמה -->
+    <button onclick="change('#f00')">RED</button>
+    <button onclick="change('#0f0')">GREEN</button>
+    <button onclick="change('blue')">BLUE</button>
+    <script>
+        function change(color) {
+            document.bgColor = color;
+        }
+        /*  function red() {
+             document.bgColor = "red";
+         }
+         function green() {
+             document.bgColor = "green";
+         }
+         function blue() {
+             document.bgColor = "blue";
+         } */
+    </script>
+</body>
+
+</html>
